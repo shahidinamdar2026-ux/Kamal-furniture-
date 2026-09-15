@@ -1,0 +1,6 @@
+{
+  "name": "Kamal Furniture - Handcrafted Indian Furniture",
+  "description": "3D animated showroom for authentic handcrafted Indian furniture by Kamal Furniture, featuring royal Sheesham wood swings, Jharokhas, carved baithaks, and bespoke solid wood craftsmanship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

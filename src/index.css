@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', Georgia, serif;
+    --font-display: 'Marcellus', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-serif {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Marcellus', serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 35s linear infinite;
+}
+
+/* Custom Indian heritage scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0e0a07;
+}
+::-webkit-scrollbar-thumb {
+  background: #3e2b1d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4a359;
+}
